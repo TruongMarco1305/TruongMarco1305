@@ -13,7 +13,13 @@ Good night 😴
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/banner-header.gif"> -->
 <h1> 👨🏻‍💻  About Me </h1>
 
-💡  I like to explore new technologies and develop software solutions and quick hacks.🎓  I'm currently studying Computer Science at the Ho Chi Minh University of Technology.💻  I'm software developer of <a href="https://github.com/fessior">Fessior Community</a>, part of Google Developers Student Clubs Ho Chi Minh University of Technology.🌱  I'm on track for learning more about Software Engineer, focusing on Frontend and Backend development.🏸  In my free time, I pursue Badminton as hobbies. I'm also a fan of football and enjoy a cup of coffee with friends💬  Feel free to reach out to me for pro bono consulting and volunteering, or just for some interesting discussion.✉️  You can shoot me an email at nam.truonggiaky@hcmut.edu.vn! I'll try to respond as soon as I can.
+<p>💡  I like to explore new technologies and develop software solutions and quick hacks.</p>
+<p>🎓  I'm currently studying Computer Science at the Ho Chi Minh University of Technology.</p>
+<p>💻  I'm software developer of <a href="https://github.com/fessior">Fessior Community</a>, part of Google Developers Student Clubs Ho Chi Minh University of Technology.</p>
+<p>🌱  I'm on track for learning more about Software Engineer, focusing on Frontend and Backend development.</p>
+<p>🏸  In my free time, I pursue Badminton as hobbies. I'm also a fan of football and enjoy a cup of coffee with friends.</p>
+<p>💬  Feel free to reach out to me for pro bono consulting and volunteering, or just for some interesting discussion.</p>
+<p>✉️  You can shoot me an email at nam.truonggiaky@hcmut.edu.vn! I'll try to respond as soon as I can.</p>
 <!-- 📄 &nbsp;Please have a look at my Résumé for more details about me. I'm open to feedback and suggestions! -->
 
 
