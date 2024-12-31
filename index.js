@@ -1,5 +1,6 @@
 import { writeFile } from "fs";
-const md = require("markdown-it")({
+import markdownit from "markdown-it";
+const md = markdownit({
   html: true, // Enable HTML tags in source
   breaks: false, // Convert '\n' in paragraphs into <br>
 });
