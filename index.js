@@ -98,13 +98,22 @@ function isWeekend(date = getCurrentTime().today) {
   return date.getDay() === 6 || date.getDay() === 0;
 }
 
+function isNewYear(){
+  const today = new Date();
+  return today.getDay() <= 7 && today.getMonth() == 1; 
+}
+
 function generateGreetings(time) {
   const goodMorning = "Good morning ☀️";
   const goodAfternoon = "Good afternoon 👋";
   const goodEvening = "Good evening ☕";
   const goodNight = "Good night 😴";
   const happyWeekend = "Happy weekend 🏝️";
+  const happyNewYear = "Happy New Year 🎆";
 
+  if (isNewYear){
+    return happyNewYear;
+  }
   if (isWeekend()) {
     return happyWeekend;
   }
