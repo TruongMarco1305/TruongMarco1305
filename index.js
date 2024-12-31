@@ -10,7 +10,6 @@ const TIMEZONE_OFFSET = 7;
 (async () => {
   const { today, hour } = getCurrentTime();
   const greetings = generateGreetings(hour);
-  const { quote, author } = await getQuotes(hour);
 
   const text = `
 <!-- RAINBOW LINE TOP -->
