@@ -3,7 +3,7 @@
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
 <h3 align="center">
-Good night 😴
+Happy New Year 🎆
 </h3>
 <p align="center">
 <a href="https://github.com/CodeWhiteWeb/CodeWhiteWeb"><img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=Welcome+to+my+Github+page;I+am+Nam;I+am+a+HCMUT-er;Full-steak+Developer;Fessior+Member;Community+of+GDSC"></a>
