@@ -1,4 +1,3 @@
-import { get } from "axios";
 import { writeFile } from "fs";
 const md = require("markdown-it")({
   html: true, // Enable HTML tags in source
@@ -6,19 +5,18 @@ const md = require("markdown-it")({
 });
 
 const TIMEZONE_OFFSET = 7;
-const QUOTES_API = "https://zenquotes.io/api/quotes";
 
 (async () => {
   const { today, hour } = getCurrentTime();
   const greetings = generateGreetings(hour);
   const { quote, author } = await getQuotes(hour);
 
-  const text = `### ${greetings}
+  const text = `
 <!-- RAINBOW LINE TOP -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
 <h3 align="center">
-  Welcome to my profile!
+  ${greetings}
 </h3>
 <p align="center">
   <a href="https://github.com/CodeWhiteWeb/CodeWhiteWeb"><img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=Welcome+to+my+Github+page;I+am+Nam;I+am+a+HCMUT-er;Full-steak+Developer;Fessior+Member;Community+of+GDSC"></a>
@@ -69,10 +67,6 @@ const QUOTES_API = "https://zenquotes.io/api/quotes";
 	<a href="https://www.linkedin.com/in/nam-truong-290a221a2/"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
 	<a href="https://www.facebook.com/TruongGiaKyNam"><img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png" alt="Facebook"/></a>
 </div>
-
-  <h1> Quote of the day: </h1>
-  *"${quote}"* <br>
-  — ${author}
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 `;
@@ -124,22 +118,6 @@ function generateGreetings(time) {
     return goodEvening;
   }
   return goodNight;
-}
-
-async function getQuotes(time) {
-    return await get(QUOTES_API).then((response) => {
-        if (response.data.length === 0) {
-          return {
-            quote: "There is no result without struggle, there is no struggle without sacrifice.",
-            author: "Me",
-          };
-        }
-        const { q, a } = response.data[0];
-        return {
-          quote: q,
-          author: a,
-        };
-      });
 }
 
 function generateFile(contents) {
