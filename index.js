@@ -14,49 +14,67 @@ const QUOTES_API = "https://zenquotes.io/api/quotes";
   const { quote, author } = await getQuotes(hour);
 
   const text = `### ${greetings}
-  <h2>I'm Michael, a Backend Engineer. <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+<!-- RAINBOW LINE TOP -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 
-  ## <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> SKILL
-  [<img align="right" width="50%" src="https://github-readme-stats.vercel.app/api?username=Kenini1805&show_icons=true&theme=synthwave">](https://metrics.lecoq.io/ouuan?template=classic)
-  
-  - Understands \`OOP\` well
-  - \`HTML\`, \`CSS\`, \`Bootstrap\`: proficient
-  - Strong skills in \`JQuery\`, \`MySQL\`, \`PHP\`
-  - Excellent with the \`Laravel\` framework for web design
-  - Proficient with \`Git\`
-  - Learning the \`Agile\` mindset
-  - Knowledge of \`Vue.js\` and \`Vuex\`
-  - Skill in \`Unit Testing\`
-  - Experience in manual and \`automated deployment\`
-  - Familiar with \`AWS\`
-  
-  ## <img src="https://emojis.slackmojis.com/emojis/images/1643515721/17468/homersimpson-pbjdance.gif?1643515721" width="30" /> CERTIFICATES
-  <img src="https://images.viblo.asia/1f5d99d1-8cb7-4d82-a627-d6934d20d94b.png" width="100" />
-  
-  ## <img src="https://images.viblo.asia/a22cc9ed-e446-4eae-ad55-1ddf8afbaa54.gif" width="30" /> CONTRIBUTIONS
-  [<img align="right" width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kenini1805&show_icons=true&theme=synthwave&layout=compact">](https://metrics.lecoq.io/ouuan?template=classic)
-  
-  #### 06/2020
-  **Contributor at Laravel**: 
-  - https://github.com/laravel/framework/pull/33278
-  - https://github.com/laravel/framework/pull/49669
+<h3 align="center">
+  Welcome to my profile!
+</h3>
+<p align="center">
+  <a href="https://github.com/CodeWhiteWeb/CodeWhiteWeb"><img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&center=true&vCenter=true&lines=Welcome+to+my+Github+page;I+am+Nam;I+am+a+HCMUT-er;Full-steak+Developer;Fessior+Member;Community+of+GDSC"></a>
+</p>
 
-  #### 2019
-  **Contributor at Chat++**: 
-  - https://github.com/wataridori/chatpp/graphs/contributors
-  
-  #### Present
-  Owner of packages \`Laravel monitoring\` and \`Nginx monitoring\`
-  - https://github.com/AvengersCodeLovers/laravel-log-monitoring
-  - https://github.com/AvengersCodeLovers/nginx-log-monitoring
-  
-  ## <img src="https://i.imgur.com/g4uAchW.gif" width="30" /> ABOUT ME
-  💬 Ask me anything: [chillwithsu.com](https://chillwithsu.com/)
-  ## Quote of the day:
+<!-- GIF HEADER
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/banner-header.gif"> -->
+<h1> 👨🏻‍💻 &nbsp;About Me </h1>
+
+💡 &nbsp;I like to explore new technologies and develop software solutions and quick hacks.\
+🎓 &nbsp;I'm currently studying Computer Science at the Ho Chi Minh University of Technology.\
+💻 &nbsp;I'm software developer of <a href="https://github.com/fessior">Fessior Community</a>, part of Google Developers Student Clubs Ho Chi Minh University of Technology.\
+🌱 &nbsp;I'm on track for learning more about Software Engineer, focusing on Frontend and Backend development.\
+🏸 &nbsp;In my free time, I pursue Badminton as hobbies. I'm also a fan of football and enjoy a cup of coffee with friends\
+💬 &nbsp;Feel free to reach out to me for pro bono consulting and volunteering, or just for some interesting discussion.\
+✉️ &nbsp;You can shoot me an email at nam.truonggiaky@hcmut.edu.vn! I'll try to respond as soon as I can.
+<!-- 📄 &nbsp;Please have a look at my Résumé for more details about me. I'm open to feedback and suggestions! -->
+
+
+<h1>🎨 &nbsp;Some of my Projects!</h1>
+<div align="center">
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=TruongMarco1305&repo=Demo_Authentication&theme=tokyonight)](https://github.com/TruongMarco1305/Demo_Authentication)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=TruongMarco1305&repo=Data_Structure_ANN&theme=tokyonight)](https://github.com/TruongMarco1305/Data_Structure_ANN)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=TruongMarco1305&repo=2D_Cutting_Stocks&theme=tokyonight)](https://github.com/TruongMarco1305/2D_Cutting_Stocks)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=TruongMarco1305&repo=TSP_BellmanFord&theme=tokyonight)](https://github.com/TruongMarco1305/TSP_BellmanFord)
+</div>
+<h1>⌨️ &nbsp;Leetcode Process</h1>
+
+<div align="center">
+
+![abc](https://leetcard.jacoblin.cool/tgknam2005?animation=true&cache=3600)
+</div>
+
+<h1>⚙️ &nbsp;GitHub Analytics</h1>
+
+<div align="center">
+<a href="https://github.com/TruongMarco1305">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=TruongMarco1305&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=TruongMarco1305&layout=compact&langs_count=8&theme=tokyonight"/>
+</a>
+</div>
+<h1>🙋‍♀️ Let's Connect</h1>
+<div align="center">
+  <!-- <a href="https://candida-noronha.web.app/"><img src="https://img.icons8.com/bubbles/50/000000/web.png" alt="Website"/></a> -->
+	<a href="mailto:tgknam2005@gmail.com"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="Gmail"/></a>
+	<a href="https://github.com/TruongMarco1305"><img src="https://img.icons8.com/bubbles/50/000000/github.png" alt="GitHub"/></a>
+	<a href="https://www.linkedin.com/in/nam-truong-290a221a2/"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
+	<a href="https://www.facebook.com/TruongGiaKyNam"><img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png" alt="Facebook"/></a>
+</div>
+
+  <h1> Quote of the day: </h1>
   *"${quote}"* <br>
   — ${author}
-  
-  ⚡ Fun fact: ***No pain, no gain***
+<!-- RAINBOW LINE BOT -->
+<img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
 `;
 
   const content = md.renderInline(text);
