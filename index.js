@@ -100,7 +100,7 @@ function isWeekend(date = getCurrentTime().today) {
 
 function isNewYear(){
   const today = new Date();
-  return today.getDay() <= 7 && today.getMonth() == 1; 
+  return today.getDay() == 1 && today.getMonth() == 1; 
 }
 
 function generateGreetings(time) {
